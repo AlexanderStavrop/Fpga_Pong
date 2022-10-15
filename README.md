@@ -3,6 +3,8 @@
 Welcome to 1970s, pong just came out, every one loves it and you can play it every where. Fast forward to 2022 and 2 ECE students have been tasked with 
 making pong so they can learn how the Vga protocol works. So this is the result.
 
+![image](https://user-images.githubusercontent.com/56675566/196002089-a6afc288-aa91-4e54-a930-1370a097b095.png)
+
 ## How to play
 - Clone the project and unzip the file
 - The zip contains an ISE project and the required .bit file
@@ -17,4 +19,5 @@ making pong so they can learn how the Vga protocol works. So this is the result.
 ## Important info
 - This project is writen in Vhdl, using ISE 14.7 for the Basys 2 fpga
 - The visual output is passed through vga (640x480 resulution)
-- The Zip file contains the Ise project  
+- The Zip file contains the Ise project
+- There is noticable jittering and that is due to the internal clock of the fpga
