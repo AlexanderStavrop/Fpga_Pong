@@ -1,0 +1,26 @@
+# clock pins for Basys2 Board
+NET "clk"   	   LOC = "B8";  # Bank = 0, Signal name = MCLK
+NET "rst" 		   LOC = "N3";  # Bank = 1, Signal name = BTN3
+
+## Pin assignment for buttons
+NET "player1_up"   LOC = "A7";   # Bank = 1, Signal name = BTN3
+NET "player1_down" LOC = "M4";   # Bank = 0, Signal name = BTN2
+NET "player2_up"   LOC = "G12";  # Bank = 0, Signal name = BTN2
+NET "player2_down" LOC = "C11";  # Bank = 1, Signal name = BTN3
+
+### Pin assignment for VGA
+NET "Hsync"   	   LOC = "J14" | DRIVE = 2   ; # Bank = 1, Signal name = HSYNC
+NET "Vsync"   	   LOC = "K13" | DRIVE = 2   ; # Bank = 1, Signal name = VSYNC
+
+NET "outRed<2>"    LOC = "F13"  | DRIVE = 2   ; # Bank = 1, Signal name = RED2
+NET "outRed<1>"    LOC = "D13"  | DRIVE = 2   ; # Bank = 1, Signal name = RED1
+NET "outRed<0>"    LOC = "C14"  | DRIVE = 2   ; # Bank = 1, Signal name = RED0
+NET "outGreen<2>"  LOC = "G14"  | DRIVE = 2   ; # Bank = 1, Signal name = GRN2
+NET "outGreen<1>"  LOC = "G13"  | DRIVE = 2   ; # Bank = 1, Signal name = GRN1 
+NET "outGreen<0>"  LOC = "F14"  | DRIVE = 2   ; # Bank = 1, Signal name = GRN0 
+NET "outBlue<1>"   LOC = "J13"  | DRIVE = 2   ; # Bank = 1, Signal name = BLU2
+NET "outBlue<0>"   LOC = "H13"  | DRIVE = 2   ; # Bank = 1, Signal name = BLU1 
+
+#### Pin assignment for LEDs
+NET "leds<0>" 		LOC = "M5";
+NET "leds<1>" 		LOC = "M11";
